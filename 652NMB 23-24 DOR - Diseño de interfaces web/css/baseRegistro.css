@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  background-color: darkgray;
+  grid-template-areas: "header header" "main main" "footer footer";
+  grid-template-columns: 75% 25%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+header {
+  grid-area: header;
+  height: 50px;
+  text-align: center;
+  padding-top: 1%;
+}
+
+#edicionPerfil {
+  border: 1px solid black;
+  border-radius: 4%;
+  width: auto;
+  height: auto;
+  padding: 1%;
+  margin-top: 1%;
+}
+#edicionPerfil > form > span {
+  display: block;
+}/*# sourceMappingURL=baseRegistro.css.map */
